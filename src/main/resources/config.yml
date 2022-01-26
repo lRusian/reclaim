@@ -1,0 +1,29 @@
+RECLAIM:
+  ALREADY_USED: "&cYou have already used your /reclaim reward."
+  NO_PERMISSION: "&cYou do not have reclaim ability!"
+  BROADCAST:
+    ENABLED: true
+    MESSAGE: #<rank>
+      - "<player> &ehas claimed rank rewards!"
+      - "&eBuy rank at &dstore.pepsidev.com &eto acquiere this feature."
+  PLAYER:
+    ENABLED: true
+    MESSAGE:
+      - ""
+      - "&6<player> &eJust claimed your rank prizes &r<rank>"
+      - ""
+      - ""
+REWARDS:
+  1:
+    RANK_NAME: "&4Pepsi"
+    PERMISSION: "reclaim.pepsi"
+    COMMANDS:
+      - "airdrops give <player> 12"
+  2:
+    RANK_NAME: "&4Service"
+    PERMISSION: "reclaim.service"
+    COMMANDS:
+      - "airdrops give <player> 12"
+
+DATA:
+  your-uuid: true
