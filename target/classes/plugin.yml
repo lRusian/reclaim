@@ -1,0 +1,10 @@
+name: CobraReclaim
+main: dev.lrusian.reclaim.Reclaim
+version: 0.5
+description: created for all player's.
+commands:
+  reclaim:
+    aliases:
+      - cobrareclaim
+      - pepsi
+      - lrusian
